@@ -10,7 +10,7 @@ import Cell from '@vkontakte/vkui/dist/components/Cell/Cell';
 import Group from '@vkontakte/vkui/dist/components/Group/Group';
 
 import home from './Home';
-var coins = home.coins;
+
 
 const osName = platform();
 
@@ -21,11 +21,11 @@ const Persik = props => (
 				{osName === IOS ? <Icon28ChevronBack/> : <Icon24Back/>}
 			</PanelHeaderButton>}
 		>
-			Баланс
+			Балансик
 		</PanelHeader>
 		<Group>
 			<Cell>
-			{`${coins}`}
+			{`${home.coins}`}
 			</Cell>
 		</Group>
 	</Panel>
