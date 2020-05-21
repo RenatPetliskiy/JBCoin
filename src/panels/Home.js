@@ -9,16 +9,18 @@ var coins = 1;
 
 const Home = ({ id, go, fetchedUser }) => (
 	<Panel id={id}>
-		<PanelHeader>Баланс</PanelHeader>
+		<PanelHeader>JBCoin</PanelHeader>
 		
 		<Group title="Navigation Example">
-			<Div>
-				<Button size="xl" level="2" onClick={coins += 150, go} data-to="persik">
+			
+	
+				
 				
 
 
-				</Button>
-			</Div>
+				
+
+			<Div><Button size="xl" level="2" onClick={coins += 150, go} data-to="persik">Клик</Button></Div>
 		</Group>
 	</Panel>
 );
