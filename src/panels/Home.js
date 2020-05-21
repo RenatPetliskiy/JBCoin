@@ -12,15 +12,12 @@ const Home = ({ id, go, fetchedUser }) => (
 		<PanelHeader>JBCoin</PanelHeader>
 		
 		<Group title="Navigation Example">
-			
-	
-				
-				
-
-
-				
-
-			<Div><Button size="xl" level="2" onClick={coins += 150, go} data-to="persik">Клик</Button></Div>
+			<Cell>
+                        	{`${coins}`}
+                        </Cell>
+                        <Div>
+                        	<Button size="xl" level="2" onClick={coins += 150, go} data-to="persik">Клик</Button>
+                	</Div>
 		</Group>
 	</Panel>
 );
