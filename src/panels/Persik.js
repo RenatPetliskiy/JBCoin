@@ -9,8 +9,6 @@ import Icon24Back from '@vkontakte/icons/dist/24/back';
 import Cell from '@vkontakte/vkui/dist/components/Cell/Cell';
 import Group from '@vkontakte/vkui/dist/components/Group/Group';
 
-import home from './Home';
-
 
 const osName = platform();
 
@@ -21,11 +19,11 @@ const Persik = props => (
 				{osName === IOS ? <Icon28ChevronBack/> : <Icon24Back/>}
 			</PanelHeaderButton>}
 		>
-			Балансик
+			Анти-Кликер
 		</PanelHeader>
 		<Group>
 			<Cell>
-			{`${home.coins}`}
+			{`Система Анти-Кликер. Можете продолжать. В дальнейшем не смотрите на этот текст.`}
 			</Cell>
 		</Group>
 	</Panel>
